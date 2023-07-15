@@ -1,0 +1,36 @@
+.root {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.name {
+    font-size: 22px;
+    margin-bottom: 8px;
+
+    color: black;
+}
+
+.link {
+    text-decoration: none;
+    cursor: pointer;
+
+    transition: color 0.2s;
+}
+
+.link:hover {
+    color: gray;
+}
+
+.count {
+    display: inline-block;
+    font-size: 18px;
+    margin: 0 8px;
+    min-width: 26px;
+    text-align: center;
+}
+
+.actions {
+    display: flex;
+    align-items: center;
+}

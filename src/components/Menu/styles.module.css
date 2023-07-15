@@ -1,0 +1,23 @@
+.root {
+    display: flex;
+    flex-direction: column;
+}
+
+.dishes {
+    display: flex;
+    flex-direction: column;
+}
+
+.dish:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.navigate{
+    margin: 30px 0;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.navigate:hover{
+    background-color: rgba(255, 94, 0, 0.753);
+}
